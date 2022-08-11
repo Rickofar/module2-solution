@@ -45,7 +45,6 @@ p{
   width: 80px;
   text-align: center;
   position: relative;
-  box-sizing: border-box;
   margin-left: 308px;
   margin-top: -11px;
 }
@@ -82,15 +81,12 @@ h4{
   font-weight: bold;
 }
 
- #row-3{
-    width: 200%;
- }
 
 #box1, #box2, #box3{
   border: 1px solid black;
   width: 80px;
   text-align: center;
-  position: inherit;
+  position: relative;
   box-sizing: border-box;
   margin-top: -11px;
 }
@@ -119,8 +115,6 @@ h4{
   border: 1px solid black;
   width: auto;
   text-align: center;
-  position: flex;
-  margin-left: 220px;
   margin-top: -11px;
 }
 
