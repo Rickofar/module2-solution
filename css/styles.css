@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: tahoma;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+h4{
+  margin-top: 5px;
+  font-weight: bold;
+}
+p{
+  text-align: justify;
+  margin-top: 5px;
+}
+
+#row-1, #row-2, #row-3{
+  background-color: gray;
+  border: 2px solid black;
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  border-right-width: 0px;
+  border-right-style: solid;
+  margin-right: -10px;
+  margin-left: 40px;
+  vertical-align: center;
+  position: relative;
+  overflow: hidden;
+  float: left;
+}
+
+#box1{
+  background-color: pink;
+  border: 1px solid black;
+  height: 40px;
+  width: 80px;
+  text-align: center;
+  margin-left: 308px;
+  margin-top: -10px;
+}
+
+#box2{
+  background-color: red;
+  color: white;
+  border: 1px solid black;
+  height: 40px;
+  width: 80px;
+  text-align: center;
+  margin-left: 308px;
+  margin-top: -10px;
+}
+
+#box3{
+  background-color: lightgoldenrodyellow;
+  border: 1px solid black;
+  height: 40px;
+  width: 80px;
+  text-align: center;
+  margin-left: 308px;
+  margin-top: -10px;
+}
+
+
+/** Large Devices **/
+@media (min-width: 992px){
+  .row{
+ }
+}
+
+
+/** Medium Devices **/
+@media (min-width: 768px) and (max-width: 991px){
+.row{
+  width: 50%;
+  float: left;
+  padding: 15px;
+ }
+
+h2{
+  margin-bottom: 50px;
+}
+
+#row-1, #row-2{
+  background-color: gray;
+  border: 2px solid black;
+  width: 350px;
+  height: 200px;
+  padding: 10px;
+  border-right-width: 0px;
+  border-right-style: solid;
+  margin-right: 0px;
+  margin-left: 0px;
+  overflow: hidden;
+  float: left;
+  clear: left;
+}
+
+#row-3{
+  width: 210%;
+  margin-left: 0px;
+}
+
+h4 {
+  margin-top: 2px;
+  font-size: 12px;
+}
+
+p{
+  font-size: 14px;
+}
+
+#box1 {
+border: 1px solid black;
+height: 30px;
+width: 60px;
+text-align: center;
+margin-left: 288px;
+margin-top: -10px;
+}
+
+ #box2 {
+border: 1px solid black;
+height: 30px;
+width: 60px;
+text-align: center;
+margin-left: 288px;
+margin-top: -10px;
+}
+
+ #box3 {
+  border: 1px solid black;
+  height: 30px;
+  width: 60px;
+  text-align: center;
+  margin-left: 662px;
+  margin-top: -10px;
+}
+
+body{
+  font-size: 1em;
+}
+
+}
+
+
+/** Small Devices **/
+@media (min-width: 0px) and (max-width: 767px){
+.row{
+  width: 33.33%;
+  position: relative;
+  min-height: 1px;
+  float: left;
+  clear: left;
+  padding: 10px;
+ }
+
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 16px;
+  }
+
+#row-1, #row-2, #row-3{
+  background-color: gray;
+  border: 2px solid black;
+  width: 300px;
+  height: 160px;
+  padding: 10px;
+  border-right-width: 0px;
+  border-right-style: solid;
+  margin-right: -70px;
+  margin-left: 25px;
+  overflow: hidden;
+  float: left;
+  vertical-align: center;
+}
+
+h4{
+  margin-top: 2px;
+}
+
+#box1 {
+  background-color: pink;
+  border: 1px solid black;
+  height: 30px;
+  width: 60px;
+  text-align: center;
+  margin-left: 309px;
+  margin-top: -11px;
+}
+
+ #box2 {
+  border: 1px solid black;
+  height: 30px;
+  width: 60px;
+  text-align: center;
+  margin-left: 309px;
+  margin-top: -11px;
+}
+
+ #box3 {
+  border: 1px solid black;
+  height: 30px;
+  width: 60px;
+  text-align: center;
+  margin-left: 309px;
+  margin-top: -11px;
+}
+
+body{
+  font-size: 0.8em;
+  }
+
+
+}
