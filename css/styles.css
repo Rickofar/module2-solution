@@ -46,6 +46,8 @@ p{
   text-align: center;
   position: relative;
   box-sizing: border-box;
+  margin-left: 308px;
+  margin-top: -11px;
 }
 
 
@@ -62,88 +64,38 @@ p{
   background-color: lightgoldenrodyellow;
 }
 
-
-/** Large Devices **/
-@media (min-width: 992px){
-  .row{
- }
-}
-
-
 /** Medium Devices **/
 @media (min-width: 768px) and (max-width: 991px){
-.row{
+  body{
+    font-size: .8em;
+  }
+#row-1, #row-2,{
   width: 50%;
-  float: left;
-  padding: 15px;
+  padding: 5px;
+  margin-top: 0px;
+  margin: 5px;
+  margin-right: -10px;
  }
 
-h2{
-  margin-bottom: 50px;
+h4{
+  margin-top: 10px;
+  font-weight: bold;
 }
 
-#row-1, #row-2{
-  background-color: gray;
-  border: 2px solid black;
-  width: 350px;
-  height: 200px;
-  padding: 10px;
-  border-right-width: 0px;
-  border-right-style: solid;
-  margin-right: 0px;
-  margin-left: 0px;
-  overflow: hidden;
-  float: left;
-  clear: left;
-}
+ #row-3{
+    width: 200%;
+ }
 
-#row-3{
-  width: 210%;
-  margin-left: 0px;
-}
-
-h4 {
-  margin-top: 2px;
-  font-size: 12px;
-}
-
-p{
-  font-size: 14px;
-}
-
-#box1 {
-border: 1px solid black;
-height: 30px;
-width: 60px;
-text-align: center;
-margin-left: 288px;
-margin-top: -10px;
-}
-
- #box2 {
-border: 1px solid black;
-height: 30px;
-width: 60px;
-text-align: center;
-margin-left: 288px;
-margin-top: -10px;
-}
-
- #box3 {
+#box1, #box2, #box3{
   border: 1px solid black;
-  height: 30px;
-  width: 60px;
+  width: 80px;
   text-align: center;
-  margin-left: 662px;
-  margin-top: -10px;
-}
-
-body{
-  font-size: 1em;
+  position: inherit;
+  box-sizing: border-box;
+  margin-top: -11px;
 }
 
 }
-
 
 /** Small Devices **/
 @media (min-width: 0px) and (max-width: 767px){
@@ -151,7 +103,7 @@ body{
     font-size: .8em;
   }
 #row-1, #row-2, #row-3 {
-  width: 98%;
+  width: auto;
   padding: 5px;
   margin-top: 0px;
   margin: 5px;
@@ -164,7 +116,12 @@ h4{
 }
 
 #box1, #box2, #box3{
-
+  border: 1px solid black;
+  width: auto;
+  text-align: center;
+  position: flex;
+  margin-left: 220px;
+  margin-top: -11px;
 }
 
 }
